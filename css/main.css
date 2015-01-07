@@ -1,0 +1,228 @@
+/* line 2, C:/Users/Robin/Desktop/ghost_buttons/css/main.scss */
+html {
+  background: url('../img/bg.jpg') center center fixed no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0; }
+
+/* line 11, C:/Users/Robin/Desktop/ghost_buttons/css/main.scss */
+body {
+  font-family: verdana, sans-serif;
+  font-size: 0.85em;
+  margin: 0; }
+
+/* line 17, C:/Users/Robin/Desktop/ghost_buttons/css/main.scss */
+a {
+  text-decoration: none;
+  color: #ccc; }
+
+/* line 22, C:/Users/Robin/Desktop/ghost_buttons/css/main.scss */
+pre, code {
+  padding: 20px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  webkit-box-sizing: border-box;
+  display: block;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+  width: 100%;
+  overflow-x: auto; }
+
+/* line 37, C:/Users/Robin/Desktop/ghost_buttons/css/main.scss */
+.wrapper {
+  position: absolute;
+  top: 20%;
+  left: 45%; }
+
+/* line 43, C:/Users/Robin/Desktop/ghost_buttons/css/main.scss */
+h1 {
+  color: rgba(255, 255, 255, 0.5);
+  transition: color 0.3s ease-out; }
+
+/* line 48, C:/Users/Robin/Desktop/ghost_buttons/css/main.scss */
+h1:hover {
+  color: rgba(255, 255, 255, 0.9);
+  transition: color 0.4 ease-in; }
+
+/* line 53, C:/Users/Robin/Desktop/ghost_buttons/css/main.scss */
+.ghost_button {
+  margin: 5% 0;
+  display: inline-block;
+  width: 200px;
+  padding: 8px;
+  color: #fff;
+  border: 1px solid #fff;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  font-size: 1.4em; }
+
+/* line 66, C:/Users/Robin/Desktop/ghost_buttons/css/main.scss */
+.ghost_button_code_basic {
+  display: none;
+  width: 13.3em;
+  font-size: 1.2em;
+  background-color: rgba(255, 255, 255, 0.4); }
+
+/* line 73, C:/Users/Robin/Desktop/ghost_buttons/css/main.scss */
+.ghost_button_code_rounded {
+  display: none;
+  width: 13.3em;
+  font-size: 1.2em;
+  background-color: rgba(255, 255, 255, 0.4); }
+
+/* line 80, C:/Users/Robin/Desktop/ghost_buttons/css/main.scss */
+.ghost_button_code_simpl_tr {
+  display: none;
+  width: 13.3em;
+  font-size: 1.2em;
+  background-color: rgba(255, 255, 255, 0.4); }
+
+/* line 87, C:/Users/Robin/Desktop/ghost_buttons/css/main.scss */
+.ghost_button_code_thick_bor {
+  display: none;
+  width: 13.3em;
+  font-size: 1.2em;
+  background-color: rgba(255, 255, 255, 0.4); }
+
+/* line 94, C:/Users/Robin/Desktop/ghost_buttons/css/main.scss */
+.ghost_button_code_semi_tr {
+  display: none;
+  width: 13.3em;
+  font-size: 1.2em;
+  background-color: rgba(255, 255, 255, 0.4); }
+
+/* line 101, C:/Users/Robin/Desktop/ghost_buttons/css/main.scss */
+.ghost_button_code_bc_fade {
+  display: none;
+  width: 13.3em;
+  font-size: 1.2em;
+  background-color: rgba(255, 255, 255, 0.4); }
+
+/* line 108, C:/Users/Robin/Desktop/ghost_buttons/css/main.scss */
+.ghost_button_code_fc_fade {
+  display: none;
+  width: 13.3em;
+  font-size: 1.2em;
+  background-color: rgba(255, 255, 255, 0.4); }
+
+/* line 115, C:/Users/Robin/Desktop/ghost_buttons/css/main.scss */
+.ghost_button_code_sz_tr {
+  display: none;
+  width: 13.3em;
+  font-size: 1.2em;
+  background-color: rgba(255, 255, 255, 0.4); }
+
+/* line 123, C:/Users/Robin/Desktop/ghost_buttons/css/main.scss */
+.ghost_button.basic:hover, .ghost_button.basic:active {
+  background-color: #fff;
+  color: #000; }
+
+/* line 128, C:/Users/Robin/Desktop/ghost_buttons/css/main.scss */
+.ghost_button.rounded {
+  border-radius: 5px; }
+
+/* line 132, C:/Users/Robin/Desktop/ghost_buttons/css/main.scss */
+.ghost_button.rounded:hover, .ghost_button.rounded:active {
+  background-color: #fff;
+  color: #000; }
+
+/* line 137, C:/Users/Robin/Desktop/ghost_buttons/css/main.scss */
+.ghost_button.simpl_tr {
+  border: 2px solid #fff;
+  transition: background-color 0.2s ease-out, color 0.2s ease-out; }
+
+/* line 143, C:/Users/Robin/Desktop/ghost_buttons/css/main.scss */
+.ghost_button.simpl_tr:hover, .ghost_button.simpl_tr:active {
+  background-color: #fff;
+  color: #000;
+  transition: background-color 0.3s ease-in, color 0.3s ease-in; }
+
+/* line 150, C:/Users/Robin/Desktop/ghost_buttons/css/main.scss */
+.ghost_button.thick_bor {
+  font-weight: 800;
+  border: 3px solid #fff;
+  transition: background-color 0.2s ease-out, color 0.2s ease-out; }
+
+/* line 157, C:/Users/Robin/Desktop/ghost_buttons/css/main.scss */
+.ghost_button.thick_bor:hover, .ghost_button.thick_bor:active {
+  background-color: #fff;
+  color: #000;
+  transition: background-color 0.3s ease-in, color 0.3s ease-in; }
+
+/* line 164, C:/Users/Robin/Desktop/ghost_buttons/css/main.scss */
+.ghost_button.semi_tr {
+  border: 2px solid #fff;
+  transition: background-color 0.2s ease-out, color 0.2s ease-out; }
+
+/* line 170, C:/Users/Robin/Desktop/ghost_buttons/css/main.scss */
+.ghost_button.semi_tr:hover, .ghost_button.semi_tr:active {
+  color: rgba(0, 0, 0, 0.4);
+  background-color: #fff;
+  /* fallback */
+  background-color: rgba(255, 255, 255, 0.4);
+  border-color: #fff;
+  /* fallback */
+  border-color: rgba(255, 255, 255, 0.4);
+  transition: background-color 0.3s ease-in, color 0.3s ease-in; }
+
+/* line 180, C:/Users/Robin/Desktop/ghost_buttons/css/main.scss */
+.ghost_button.bc_fade {
+  border: 3px solid #fff;
+  transition: background-color 0.3s ease-out, color 0.3s ease-out; }
+
+/* line 186, C:/Users/Robin/Desktop/ghost_buttons/css/main.scss */
+.ghost_button.bc_fade:hover, .ghost_button.bc_fade:active {
+  color: rgba(29, 224, 139, 0.4);
+  border-color: rgba(29, 224, 139, 0.4);
+  transition: border-color 0.4s ease-in, color 0.4s ease-in; }
+
+/* line 193, C:/Users/Robin/Desktop/ghost_buttons/css/main.scss */
+.ghost_button.fc_fade {
+  background-color: transparent;
+  border: 3px solid #fff;
+  transition: color 0.3s ease-out, background-color 0.3s ease-out, border-color 0.3s ease-out; }
+
+/* line 201, C:/Users/Robin/Desktop/ghost_buttons/css/main.scss */
+.ghost_button.fc_fade:hover, .ghost_button.fc_fade:active {
+  background-color: #9363c4;
+  color: #fff;
+  border-color: #9363c4;
+  transition: color 0.3s ease-in, background-color 0.3s ease-in, border-color 0.3s ease-in; }
+
+/* line 210, C:/Users/Robin/Desktop/ghost_buttons/css/main.scss */
+.ghost_button.sz_tr {
+  width: 200px;
+  height: 25px;
+  line-height: 25px;
+  border: 2px solid #fff;
+  transition: width 0.3s ease-out, height 0.3s ease-out, line-height 0.3s ease-out; }
+
+/* line 220, C:/Users/Robin/Desktop/ghost_buttons/css/main.scss */
+.ghost_button.sz_tr:hover, .ghost_button.sz_tr:active {
+  width: 220px;
+  height: 45px;
+  line-height: 45px;
+  transition: width 0.1s ease-in, height 0.1s ease-in, line-height 0.1s ease-in; }
+
+/* line 231, C:/Users/Robin/Desktop/ghost_buttons/css/main.scss */
+p.link {
+  color: #fff;
+  font-size: 1.3em;
+  width: 13em; }
+
+/* line 237, C:/Users/Robin/Desktop/ghost_buttons/css/main.scss */
+.footer span {
+  font-size: 1.4em;
+  color: rgba(255, 255, 255, 0.4);
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  text-align: center; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ghost Buttons</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="wrapper">
+       <h1>Ghost Buttons</h1>
+        <div class="basic_ghost_button">
+            <a href="#" class="ghost_button basic">Click Me</a>
+            <div class="ghost_button_code_basic">
+                <pre>
+                    .basic_ghost_button {
+                      display: inline-block;
+                      width: 200px;
+                      padding: 8px;
+                      color: #fff;
+                      border: 1px solid #fff;
+                      text-align: center;
+                      outline: none;
+                      text-decoration: none;
+                    }
+                    .basic_ghost_button:hover,
+                    .basic_ghost_button:active {
+                      background-color: #fff;
+                      color: #000;
+                    }
+                </pre>
+            </div>
+        </div>
+               
+        <div class="rounded_corners">
+            <a href="#" class="ghost_button rounded">Click Me</a>
+            <div class="ghost_button_code_rounded">
+                <pre>
+                    .ghost_button.rounded {
+                      display: inline-block;
+                      width: 200px;
+                      padding: 8px;
+                      color: #fff;
+                      border: 1px solid #fff;
+                      border-radius: 5px;
+                      text-align: center;
+                      outline: none;
+                      text-decoration: none;
+                    }
+                    .ghost_button.rounded:hover,
+                    .ghost_button.rounded:active {
+                      background-color: #fff;
+                      color: #000;
+                    }
+                </pre>
+            </div>
+        </div>
+        
+        <div class="simple_transition_effect">
+            <a href="#" class="ghost_button simpl_tr">Click Me</a>
+            <div class="ghost_button_code_simpl_tr">
+                <pre>
+                    .ghost_button.simpl_tr {
+                      display: inline-block;
+                      width: 200px;
+                      padding: 8px;
+                      color: #fff;
+                      border: 2px solid #fff;
+                      text-align: center;
+                      outline: none;
+                      text-decoration: none;
+                      transition: background-color 0.2s ease-out,
+                                  color 0.2s ease-out;
+                    }
+                    .ghost_button.simpl_tr:hover,
+                    .ghost_button.simpl_tr:active {
+                      background-color: #fff;
+                      color: #000;
+                      transition: background-color 0.3s ease-in,
+                                  color 0.3s ease-in;
+                    }
+                </pre>
+            </div>
+        </div>
+        
+        <div class="thick_border">
+            <a href="#" class="ghost_button thick_bor">Click Me</a>
+            <div class="ghost_button_code_thick_bor">
+                <pre>
+                    .ghost_button.thick_bor {
+                      display: inline-block;
+                      width: 200px;
+                      font-weight: bold;
+                      padding: 8px;
+                      color: #fff;
+                      border: 3px solid #fff;
+                      text-align: center;
+                      outline: none;
+                      text-decoration: none;
+                      transition: background-color 0.2s ease-out,
+                                  color 0.2s ease-out;
+                    }
+                    .ghost_button.thick_bor:hover,
+                    .ghost_button.thick_bor:active {
+                      background-color: #fff;
+                      color: #000;
+                      transition: background-color 0.3s ease-in,
+                                  color 0.3s ease-in;
+                    }
+                </pre>
+            </div>
+        </div>
+        
+        <div class="semi_transparent_fade">
+            <a href="#" class="ghost_button semi_tr">Click Me</a>
+            <div class="ghost_button_code_semi_tr">
+                <pre>
+                    .ghost_button.semi_tr {
+                      display: inline-block;
+                      width: 200px;
+                      padding: 8px;
+                      color: #fff;
+                      border: 2px solid #fff;
+                      text-align: center;
+                      outline: none;
+                      text-decoration: none;
+                      transition: background-color 0.2s ease-out,
+                                  border-color 0.2s ease-out;
+                    }
+                    .ghost_button.semi_tr:hover,
+                    .ghost_button.semi_tr:active {
+                      background-color: #fff; /* fallback */
+                      background-color: rgba(255, 255, 255, 0.4);
+                      border-color: #fff; /* fallback */
+                      border-color: rgba(255, 255, 255, 0.4);
+                      transition: background-color 0.3s ease-in,
+                                  border-color 0.3s ease-in;
+                    }
+                </pre>
+            </div>
+        </div>
+        
+        <div class="border_color_fade">
+            <a href="#" class="ghost_button bc_fade">Click Me</a>
+            <div class="ghost_button_code_bc_fade">
+                <pre>
+                    .ghost_button.bc_fade {
+                      display: inline-block;
+                      width: 200px;
+                      padding: 8px;
+                      color: #fff;
+                      border: 2px solid #fff;
+                      text-align: center;
+                      outline: none;
+                      text-decoration: none;
+                      transition: border-color 0.3s ease-out,
+                                  color 0.3s ease-out;
+                    }
+                    .ghost_button.bc_fade:hover,
+                    .ghost_button.bc_fade:active {
+                       color: #66d8ed;
+                       border-color: #66d8ed;
+                       transition: border-color 0.4s ease-in,
+                                   color 0.4s ease-in;
+                    }
+                </pre>
+            </div>
+        </div>
+        
+        <div class="full_color_fade">
+            <a href="#" class="ghost_button fc_fade">Click Me</a>
+            <div class="ghost_button_code_fc_fade">
+                <pre>
+                    .ghost_button.fc_fade {
+                      display: inline-block;
+                      width: 200px;
+                      padding: 8px;
+                      color: #fff;
+                      background-color: transparent;
+                      border: 2px solid #fff;
+                      text-align: center;
+                      outline: none;
+                      text-decoration: none;
+                      transition: color 0.3s ease-out,
+                                  background-color 0.3s ease-out,
+                                  border-color 0.3s ease-out;
+                    }
+                    .ghost_button.fc_fade:hover,
+                    .ghost_button.fc_fade:active {
+                      background-color: #9363c4;
+                      border-color: #9363c4;
+                      color: #fff;
+                      transition: color 0.3s ease-in,
+                                  background-color 0.3s ease-in,
+                                  border-color 0.3s ease-in;
+                    }
+                </pre>
+            </div>
+        </div>
+        
+        <div class="size_transition_effect">
+            <a href="#" class="ghost_button sz_tr">Click Me</a>
+            <div class="ghost_button_code_sz_tr">
+                <pre>
+                    .ghost_button.sz_tr {
+                      display: inline-block;
+                      width: 200px;
+                      height: 25px;
+                      line-height: 25px;
+                      margin: 0 auto;
+                      padding: 8px;
+                      color: #fff;
+                      border: 2px solid #fff;
+                      text-align: center;
+                      outline: none;
+                      text-decoration: none;
+                      transition: width 0.3s ease-out,
+                                  height 0.3s ease-out,
+                                  line-height 0.3s ease-out;
+                    }
+                    .ghost_button.sz_tr:hover,
+                    .ghost_button.sz_tr:active {
+                      width: 220px;
+                      height: 45px;
+                      line-height: 45px;
+                      transition: width 0.1s ease-in,
+                                  height 0.1s ease-in,
+                                  line-height 0.1s ease-in;
+                    }
+                </pre>
+            </div>
+        </div>
+        <p class="link">Followed <a href="http://sixrevisions.com/css/ghost-buttons/">Jacob Gube's</a> awesome tutorial to make these.</p>
+    </div>
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="js/scripts.js"></script>
+    <footer class="footer">
+        <span>2015</span>
+    </footer>
+</body>
+</html>
